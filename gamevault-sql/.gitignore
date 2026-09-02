@@ -1,0 +1,23 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (contienen contraseñas y secrets)
+.env
+.env.local
+.env.production
+
+# Build del frontend
+frontend/dist/
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
