@@ -16,7 +16,8 @@
 }
 
 .search-input-wrapper:focus-within {
-  border-color: var(--primary);
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 2px rgba(139, 64, 242, 0.25);
 }
 
 .search-icon {
@@ -46,6 +47,7 @@
 
 .search-button:hover {
   opacity: 0.9;
+  box-shadow: 0 0 10px var(--accent), 0 0 20px rgba(242, 5, 203, 0.4);
 }
 
 .search-button:active {
