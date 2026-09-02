@@ -24,8 +24,22 @@
   letter-spacing: 0.5px;
 }
 
-.logo-highlight {
+.logo-game {
+  font-family: var(--font-game);
   color: var(--primary);
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-shadow: 0 0 6px var(--primary), 0 0 14px var(--primary);
+}
+
+.logo-vault {
+  font-family: var(--font-vault);
+  color: var(--secondary);
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.9rem;
+  letter-spacing: -0.5px;
+  text-shadow: 0 0 6px var(--secondary), 0 0 14px var(--secondary);
 }
 
 .navbar-links {
@@ -49,7 +63,7 @@
 .navbar-links button:hover,
 .navbar-links li.active button {
   color: var(--text-main);
-  background: rgba(139, 92, 246, 0.1);
+  background: rgba(5, 242, 219, 0.08);
 }
 
 

@@ -1,15 +1,18 @@
 :root {
-  --bg-dark: #0a0c16;
-  --bg-card: #131728;
-  --bg-card-hover: #1c223a;
-  --primary: #8b5cf6;
-  --primary-hover: #7c3aed;
-  --secondary: #06b6d4;
-  --accent: #ec4899;
-  --text-main: #f3f4f6;
-  --text-muted: #9ca3af;
-  --border-color: #2e3654;
+  --bg-dark: #010b0d;
+  --bg-card: #021826;
+  --bg-card-hover: #01323f;
+  --primary: #05F2DB;
+  --primary-hover: #04c9b5;
+  --secondary: #8B40F2;
+  --accent: #F205CB;
+  --accent-secondary: #6BBBF6;
+  --text-main: #e8fdfb;
+  --text-muted: #7f9aa8;
+  --border-color: #025373;
   --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-game: 'Orbitron', sans-serif;
+  --font-vault: 'Rajdhani', sans-serif;
 }
 
 * {
@@ -49,7 +52,7 @@ body {
   font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
-  background: rgba(139, 92, 246, 0.2);
+  background: rgba(5, 242, 219, 0.15);
   color: var(--primary);
   border: 1px solid var(--primary);
 }

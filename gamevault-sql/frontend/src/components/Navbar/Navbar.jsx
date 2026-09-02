@@ -7,7 +7,7 @@ const Navbar = ({ currentPage, navigateTo }) => {
       <div className="navbar-container container">
         <div className="navbar-logo" onClick={() => navigateTo('home')}>
           <span className="logo-icon">🎮</span>
-          <span className="logo-text">Game<span className="logo-highlight">Vault</span></span>
+          <span className="logo-game">Game</span><span className="logo-vault">Vault</span>
         </div>
 
         <ul className="navbar-links">
