@@ -11,7 +11,11 @@ const pool = mysql.createPool({
   port: Number(process.env.DB_PORT) || 3306,
   waitForConnections: true,
   connectionLimit: 10,
-  queueLimit: 0
+  queueLimit: 0,
+  // NOTA ACADÉMICA: multipleStatements habilitado para demostrar
+  // inyecciones con UPDATE/DELETE en modo vulnerable de laboratorio.
+  // En producción esto NUNCA debe activarse.
+  multipleStatements: true
 });
 
 module.exports = pool;
